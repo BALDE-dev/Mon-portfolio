@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
@@ -120,8 +120,8 @@
       <!-- SECTION COM'N TEK -->
       <section id="comntek" class="section-comntek">
         <h2 class="titre-section">
-          <span class="bleu">J'ai fondé Com’N Tek</span> <br />
-          Avec comme slogan : "Le numérique à votre image !"
+          <span class="bleu">Com’N Tek</span> <br />
+        "Le numérique à votre image !"
         </h2>
 
         <div class="contenu-comntek">
@@ -200,93 +200,148 @@
         </div>
       </div>
 
-      <!-- SECTION PROJETS -->
-      <section id="projets" class="projets-section">
-        <h2>Mes Projets</h2>
-        <p class="intro">
-          Voici quelques-unes de mes réalisations récentes mêlant développement
-          web, automatisation et créativité.
+      <section id="projets" class="projets">
+        <h2>Mes projets</h2>
+        <p class="projets-intro">
+          Projets réalisés dans un cadre académique et personnel, orientés
+          solutions concrètes et problématiques réelles.
         </p>
 
-        <div class="projets-grid">
+        <div class="projets-container">
           <!-- Projet 1 -->
           <div class="projet-card">
-            <img src="img/Projet_fastfood.png" alt="Projet Fast Food" />
             <div class="projet-content">
               <h3>Gestion Fast-Food</h3>
+
               <p>
-                Application de gestion des commandes et du stock pour un
-                fast-food local, développée en Python (Tkinter).
+                Application desktop permettant la gestion des commandes, des
+                ventes et du stock pour un fast-food, avec une interface simple
+                et efficace.
               </p>
-              <a href="#" class="btn">Voir le projet</a>
+
+              <p class="stack-projet">
+                <strong>Stack :</strong> Python · Tkinter · SQL
+              </p>
+
+              <a
+                href="https://github.com/ton-github/fast-food"
+                target="_blank"
+                class="btn-projet"
+              >
+                <i class="fab fa-github"></i> Code source
+              </a>
             </div>
           </div>
 
           <!-- Projet 2 -->
           <div class="projet-card">
-            <img src="img/macrobus.jpg" alt="Projet Data Engineering" />
             <div class="projet-content">
-              <h3>Projet Data Engineering</h3>
+              <h3>Pharmalink</h3>
+
               <p>
-                Création d’un entrepôt de données hospitalier complet avec SQL
-                Server, ETL SSIS et visualisation Power BI.
+                Plateforme intelligente visant à moderniser la gestion des
+                stocks pharmaceutiques, améliorer la traçabilité et anticiper
+                les besoins grâce à l’analyse de données.
               </p>
-              <a href="#" class="btn">Voir le projet</a>
+
+              <p class="stack-projet">
+                <strong>Stack :</strong> Web · Data · IA (en cours)
+              </p>
+
+              <a
+                href="https://github.com/ton-github/pharmalink"
+                target="_blank"
+                class="btn-projet"
+              >
+                <i class="fab fa-github"></i> Code source
+              </a>
             </div>
           </div>
 
           <!-- Projet 3 -->
           <div class="projet-card">
-            <img src="img/projet_pharmalink.png" alt="Mon Portfolio" />
             <div class="projet-content">
-              <h3>Pharmalink</h3>
+              <h3>Macrobus — Data Engineering</h3>
+
               <p>
-                U
-              ******************************************************************************************************************************************************************************************rique intelligente conçue pour moderniser la
-                gestion des stocks pharmaceutiques, renforcer la visibilité de
-                la chaîne d’approvisionnement et utiliser l’intelligence
-                artificielle pour anticiper les besoins.
+                Projet de data engineering réalisé dans le cadre de la formation
+                <strong>Force-N</strong>, basé sur une entreprise fictive de
+                vente de voitures. Conception d’une base de données, génération
+                de données et analyses.
               </p>
-              <a href="#" class="btn">Voir le projet</a>
+
+              <p class="stack-projet">
+                <strong>Stack :</strong> PostgreSQL · Python · SQL · ETL
+              </p>
+
+              <a
+                href="https://github.com/ton-github/macrobus"
+                target="_blank"
+                class="btn-projet"
+              >
+                <i class="fab fa-github"></i> Code source
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- SECTION CONTACT  -->
-      <section id="contact" class="section-contact">
-        <div class="contact-centre">
-          <h2 class="titre-section">Contact</h2>
-          <p class="texte-contact">
-            Une idée, un projet ou simplement envie d’échanger ? N’hésite pas à
-            me contacter, je serai ravi d’en discuter !
-          </p>
+      <section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p class="contact-intro">
+    Une idée, un projet ou une collaboration ? N’hésite pas à me contacter.
+  </p>
 
-          <form class="formulaire-contact">
-            <input type="text" placeholder="Votre nom complet" required />
-            <input type="email" placeholder="Votre e-mail" required />
-            <textarea placeholder="Votre message" rows="5" required></textarea>
-            <button type="submit" class="btn btn-primaire">
-              Envoyer le message
-            </button>
-          </form>
+  <!-- Formulaire -->
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="nom">Nom complet</label>
+      <input type="text" id="nom" name="nom" placeholder="Votre nom complet" required />
+    </div>
 
-          <div class="infos-contact">
-            <p>
-              <strong>Téléphone :</strong> +221 70 982 25 61 / +221 78 568 23 42
-            </p>
-            <p><strong>Email :</strong> baldeoumar136@gmail.com</p>
-            <p>
-              <strong>LinkedIn :</strong>
-              <a
-                href="www.linkedin.com/in/oumar-balde-97456533a"
-                target="_blank"
-                >linkedin/baldeoumar</a
-              >
-            </p>
-          </div>
-        </div>
-      </section>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Votre email" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Votre message"
+        required
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn-contact">
+      Envoyer le message
+    </button>
+  </form>
+
+  <!-- Infos -->
+  <div class="contact-infos">
+    <p>
+      <strong>Email :</strong>
+      <a href="mailto:contact@exemple.com">baldeoumar136@gmail.com</a>
+    </p>
+
+    <p>
+      <strong>LinkedIn :</strong>
+      <a href="https://www.linkedin.com/in/oumar-balde-97456533a" target="_blank">
+        linkedin/Oumar BALDE
+      </a>
+    </p>
+
+    <p>
+      <strong>GitHub :</strong>
+      <a href="https://github.com/BALDE-dev" target="_blank">
+        Oumar BALDE
+      </a>
+    </p>
+  </div>
+</section>
     </main>
     <!-- FOOTER -->
     <footer class="footer">

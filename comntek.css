@@ -404,7 +404,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px; /* Hauteur fixe pour uniformité */
+  height: 100px;
 }
 
 .logo-client:hover {

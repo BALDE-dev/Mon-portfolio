@@ -35,7 +35,7 @@ liens.forEach(lien => {
 });
 
 // Animation cartes projets au scroll
-const cartesProjets = document.querySelectorAll('.carte-projet');
+const cartesProjets = document.querySelectorAll('.projet-card');
 
 const observerProjets = new IntersectionObserver(entries => {
   entries.forEach(entry => {
